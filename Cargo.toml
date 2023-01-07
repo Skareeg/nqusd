@@ -1,0 +1,31 @@
+[package]
+name = "nqusd"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Skareeg Xigmatec <skareeg@gmail.com>"]
+
+description = "Simplistic importer and exporter of Universal Scene Description (.usd/.usdc/.usda) file format."
+documentation = ""
+homepage = ""
+repository = ""
+readme = "README.md"
+categories = [ "game-development", "multimedia" ]
+keywords = [ "usd", "scene", "format", "importer", "exporter" ]
+license = "MIT OR Apache-2.0"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "nqusd"
+path = "src/lib.rs"
+test = true
+doctest = true
+bench = false
+doc = true
+harness = false
+crate-type = ["staticlib"]
+
+[dependencies]
