@@ -21,11 +21,12 @@ maintenance = { status = "actively-developed" }
 [lib]
 name = "nqusd"
 path = "src/lib.rs"
-test = true
-doctest = true
-bench = false
-doc = true
-harness = false
+# test = true
+# doctest = true
+# bench = false
+# doc = true
+# harness = false
 crate-type = ["staticlib"]
 
 [dependencies]
+tokio = { version = "1", features = ["full"] }
