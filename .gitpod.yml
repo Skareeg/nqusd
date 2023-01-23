@@ -4,6 +4,9 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
-tasks:
+# tasks:
 #  - init: cargo build
 #    command: cargo watch -x run
+vscode:
+  extensions:
+    - rust-lang.rust-analyzer
