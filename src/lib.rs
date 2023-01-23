@@ -15,6 +15,9 @@
     missing_copy_implementations
 )]
 
+pub mod usd;
+pub mod usda;
+
 /// Simple test function to ensure this library is operational.
 #[inline]
 pub fn hello() {
